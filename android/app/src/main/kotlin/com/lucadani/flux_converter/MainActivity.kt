@@ -1,0 +1,5 @@
+package com.lucadani.flux_converter
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
