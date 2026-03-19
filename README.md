@@ -38,7 +38,7 @@ A modern, high-performance currency converter built with **Flutter** and **Dart*
 - **Framework**: Flutter (Dart)
 - **IDE**: [Android Studio](https://developer.android.com/studio)
 - **State Management**: StatefulWidgets
-- **Networking:**: `http` package
+- **Networking**: `http` package
 - **Config**: `flutter_dotenv`
 - **Logging**: `dart:developer` (Production-ready logging)
 
