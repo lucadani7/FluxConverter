@@ -7,10 +7,45 @@
 .buildlog/
 .history
 
-*.env
-*.idea
+# --- FLUTTER SPECIFIC ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# --- ANDROID STUDIO / INTELLIJ ---
+.idea/
 *.iml
-*.vscode
+*.iws
+*.ipr
+.gradle/
+local.properties
+captures
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# --- IOS / MACOS SPECIFIC ---
+.generated/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+macos/Pods/
+macos/.symlinks/
+DerivedData/
+
+# --- SYSTEM SPECIFIC ---
+.DS_Store
+Thumbs.db
+
+# --- PROJECT SPECIFIC (IMPORTANT) ---
+# Nu urca niciodată cheile API pe GitHub!
+.env
 
 
 # Flutter repo-specific
